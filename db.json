@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "email": "admin@restaurante.com",
+      "password": "$2a$10$aEL8HsVE/N7sFbqTAMk/sOzv1B5A1OezafJ/Ijtl7vJf5ZGiKlDSq",
+      "id": 1
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Entradas",
+      "descripcion": "Platos para comenzar",
+      "icono": "🥗"
+    },
+    {
+      "id": 2,
+      "nombre": "Sopas",
+      "descripcion": "Caldos y cremas",
+      "icono": "🍲"
+    },
+    {
+      "id": 3,
+      "nombre": "Segundos",
+      "descripcion": "Platos principales",
+      "icono": "🍽️"
+    },
+    {
+      "id": 4,
+      "nombre": "Postres",
+      "descripcion": "Dulces y pasteles",
+      "icono": "🍰"
+    },
+    {
+      "id": 5,
+      "nombre": "Bebidas",
+      "descripcion": "Jugos y refrescos",
+      "icono": "🥤"
+    }
+  ],
+  "platos": [
+    {
+      "id": 1,
+      "nombre": "Ensalada César",
+      "descripcion": "Lechuga, crutones, parmesano",
+      "precio": 35,
+      "imagen": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400",
+      "categoriaId": 1,
+      "disponible": true
+    },
+    {
+      "id": 2,
+      "nombre": "Sopa de Maní",
+      "descripcion": "Tradicional sopa boliviana",
+      "precio": 45,
+      "imagen": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+      "categoriaId": 2,
+      "disponible": true
+    },
+    {
+      "id": 3,
+      "nombre": "Silpancho",
+      "descripcion": "Plato típico cochabambino",
+      "precio": 65,
+      "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+      "categoriaId": 3,
+      "disponible": true
+    },
+    {
+      "id": 4,
+      "nombre": "Fricasé",
+      "descripcion": "Cerdo con mote y chuño",
+      "precio": 70,
+      "imagen": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+      "categoriaId": 3,
+      "disponible": true
+    },
+    {
+      "id": 5,
+      "nombre": "Helado de Canela",
+      "descripcion": "Postre artesanal boliviano",
+      "precio": 25,
+      "imagen": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400",
+      "categoriaId": 4,
+      "disponible": true
+    },
+    {
+      "id": 6,
+      "nombre": "Mocochinchi",
+      "descripcion": "Refresco de durazno seco",
+      "precio": 15,
+      "imagen": "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400",
+      "categoriaId": 5,
+      "disponible": true
+    }
+  ]
+}
